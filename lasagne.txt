@@ -1,0 +1,19 @@
+
+Apro il frigo 
+Scorro il frigo 
+    ?SE l'elemento fa parte di ricetta 
+        lo prendo 
+    ALTRIMENTI scorro oltre 
+
+Peso gli ingredienti
+    ?SE il peso corrisponde alla quantità specificata nella ricetta 
+        prendo quella quantità
+
+Assemblo i vari ingredienti rifetrendomi alla ricetta
+Accendo il forno 
+    ?SE forno è ventilato AND la temperatrura e uguale a 200 gradi
+    impsto un timer a 30 minuti 
+
+inforno
+
+quando timer è uguale a 30minuti , tiro fuori le lasagne
